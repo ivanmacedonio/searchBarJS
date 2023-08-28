@@ -1,0 +1,42 @@
+body{
+    font-size: 28px;
+    background-color: rgb(175, 122, 224);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+ul{
+    list-style: none;
+    background-color:rgb(223, 138, 227) ;
+    padding: 20px;
+    border: 2px black groove;
+    border-radius: 20px;
+    text-align: center;
+}
+
+li{
+    padding-bottom: 10px;
+}
+
+#buscador{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px black groove;
+    border-radius: 20px;
+    
+    
+}
+
+#contenedor-main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.filtro{
+    display: none;
+}
